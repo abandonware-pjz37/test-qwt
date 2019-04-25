@@ -15,3 +15,7 @@
 .. code-block:: none
 
   rm -rf _builds && cmake -H. -B_builds -DCMAKE_VERBOSE_MAKEFILE=ON
+  
+.. code-block:: none
+
+  cmake --build _builds
